@@ -3,6 +3,12 @@
 ### Setup a new workflow project
 
 1. Create workflow in Alfred
+    - Use a `Run Script` action
+    - Use `/bin/bash` as the language
+    - Use `{query}` as input
+    - The script value should be whatever language parser that workflow is based with `{query}` at the end of the command
+        - Example: `python main.py {query}`
+    - Use `Spaces` as the escaping mechanism
 
 2. Copy the contents of the workflow folder created by Alfred and put it in the workflow project directory
     - This is typically a `info.plist` and a logo file referenced within _info.plist_
