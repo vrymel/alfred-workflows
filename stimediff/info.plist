@@ -97,7 +97,7 @@
 				<key>keyword</key>
 				<string>stimediff</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Example args: 1000 1130</string>
 				<key>text</key>
 				<string>Time diff</string>
 				<key>withspace</key>
