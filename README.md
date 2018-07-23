@@ -17,7 +17,9 @@
 
 4. Remove the generated workflow directory
 
-5. Symlink the workflow project directory, use the path from step 3 
+5. Symlink the workflow project directory, use the path from step 3.
+
+        ln -s ~/projects/alfred-workflows/sgain "/Users/vomandam/Alfred preferences/Alfred.alfredpreferences/workflows/user.workflow.CBEDCF74-FF02-4277-B019-B878CB8843B3"
 
 ### Using a workflow project
 
