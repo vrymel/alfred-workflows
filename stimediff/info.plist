@@ -48,27 +48,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>stimediff</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Time diff</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>366B5124-C34A-47EB-9F9E-35547EABBD8B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -76,7 +55,7 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{query}</string>
+				<string>{query} hours</string>
 				<key>title</key>
 				<string>Time difference</string>
 			</dict>
@@ -110,6 +89,27 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>stimediff</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Time diff</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>366B5124-C34A-47EB-9F9E-35547EABBD8B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -118,16 +118,16 @@
 		<key>366B5124-C34A-47EB-9F9E-35547EABBD8B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>140</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>150</integer>
 		</dict>
 		<key>A4AFB230-61B3-4409-B29B-062069E03764</key>
 		<dict>
 			<key>xpos</key>
-			<integer>750</integer>
+			<integer>690</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>150</integer>
 		</dict>
 		<key>D46B530A-0735-41D8-9675-C6D2D86A7179</key>
 		<dict>
