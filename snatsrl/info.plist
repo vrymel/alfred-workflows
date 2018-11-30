@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.vrymel.snatscrl</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>59BFCE37-8743-4083-9483-0B8170368930</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B12C5554-01E6-4A50-9942-287BBA467BF7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vrymel Omandam</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Toggle Natural Scroll</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>snatscrl</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Toggle Natural Scroll</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>59BFCE37-8743-4083-9483-0B8170368930</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+tell application "System Preferences"
+    activate
+    reveal pane "Trackpad"
+end tell
+
+delay 0.5
+
+tell application "System Events" 
+    tell application process "System Preferences"
+        tell tab group 1 of window "Trackpad"
+            click radio button "Scroll &amp; Zoom"
+            click checkbox 1
+        end tell
+    end tell
+end tell
+
+delay 0.5
+
+tell application "System Preferences"
+    quit
+end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>B12C5554-01E6-4A50-9942-287BBA467BF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>59BFCE37-8743-4083-9483-0B8170368930</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>B12C5554-01E6-4A50-9942-287BBA467BF7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>590</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://vrymel.com</string>
+</dict>
+</plist>
