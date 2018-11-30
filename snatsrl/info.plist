@@ -25,7 +25,7 @@
 	<key>createdby</key>
 	<string>Vrymel Omandam</string>
 	<key>description</key>
-	<string></string>
+	<string>Toggle the Natural Scroll option in System Preferences</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -38,7 +38,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>snatscrl</string>
+				<string>snatsrl</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
