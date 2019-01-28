@@ -96,7 +96,7 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>keyword</key>
-				<string>today</string>
+				<string>tdy</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.snippet</string>
@@ -141,7 +141,7 @@ sys.stdout.write(output)</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>keyword</key>
-				<string>yesterday</string>
+				<string>ydy</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.snippet</string>
